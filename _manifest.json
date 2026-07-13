@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "id": "gomico.split-rich-message",
+  "version": "1.0.0",
+  "name": "合发消息拆分",
+  "description": "把文字+表情/图片的合发消息拆成两条独立消息发送，让回复更拟人。",
+  "author": {
+    "name": "gomico",
+    "url": "https://github.com/gomico"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "999999.0.0"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "urls": {
+    "repository": "https://github.com/gomico/maibot_plugin_split-rich-message",
+    "homepage": "https://github.com/gomico/maibot_plugin_split-rich-message"
+  },
+  "capabilities": [
+    "send.text",
+    "send.emoji"
+  ],
+  "dependencies": [],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": ["zh-CN"]
+  }
+}

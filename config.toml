@@ -1,0 +1,7 @@
+[plugin]
+config_version = "1.0.0"
+enabled = true
+
+[split]
+split_emoji = true
+split_image = false
